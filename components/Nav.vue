@@ -9,7 +9,7 @@
         <nav class=" w-6/12 hidden md:block">
             <ul class="flex">
                 <li class="flex-1 text-white">
-                    <nuxt-link class="hover:border-b-2 hover:border-white hover:pb-4" to="/">
+                    <nuxt-link class="" to="/">
                         Home
                     </nuxt-link>
                 </li>
@@ -38,25 +38,25 @@
         <div class="hidden md:block">
             <ul class="flex justify-between w-24">
                 <li>
-                    <nuxt-link to="contact">
+                    <a href="https://twitter.com/ariyo_moyin" target="_blank" rel="noopener noreferrer">
                         <span class="icon"> 
                             <font-awesome-icon class="text-white" :icon="['fab' , 'twitter']" />
                         </span>
-                    </nuxt-link>
+                    </a>
                 </li>
                 <li>
-                    <nuxt-link to="behance">
+                    <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
                         <span class="icon"> 
                             <font-awesome-icon class="text-white" :icon="['fab' , 'behance']" />
                         </span>
-                    </nuxt-link>
+                    </a>
                 </li>
                 <li> 
-                    <nuxt-link to="behance">
+                    <a href="https://www.linkedin.com/in/moyinoluwa-ariyo-641a97165/" target="_blank" rel="noopener noreferrer">
                         <span class="icon"> 
                             <font-awesome-icon class="text-white" :icon="['fab' , 'linkedin-in']" />
                         </span>
-                    </nuxt-link>
+                    </a>
                 </li>
             </ul>
         </div>
