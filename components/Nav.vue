@@ -1,12 +1,12 @@
 <template> 
-    <header class="flex justify-between w-auto bg-black bg-opacity-27 p-4 md:p-8">
+    <nav class="flex justify-between w-auto bg-black bg-opacity-27 p-4 md:p-8">
         <nuxt-link to="/" class="text-white">
             Moyin Ariyo
         </nuxt-link>
-        <!-- <span class="icon">
-            <font-awesome-icon class="text-white" :icon="['fa' , 'bars']" />
-        </span> -->
-        <nav class=" w-6/12 hidden md:block">
+        <button class="block md:hidden cursor-pointer">
+            <font-awesome-icon class="text-white" :icon="['fas' , 'bars']" />
+        </button>
+        <div class=" w-6/12 hidden md:block">
             <ul class="flex">
                 <li class="flex-1 text-white">
                     <nuxt-link class="" to="/">
@@ -34,7 +34,7 @@
                     </nuxt-link>
                 </li>
             </ul>   
-        </nav>
+        </div>
         <div class="hidden md:block">
             <ul class="flex justify-between w-24">
                 <li>
@@ -60,7 +60,7 @@
                 </li>
             </ul>
         </div>
-    </header>
+    </nav>
    
 </template>
 
